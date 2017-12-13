@@ -10,7 +10,7 @@ This tool registry validator checks tool registry service URLs to determine if i
 
 and much more.  The validator provides badges based on the results.
 
-
+---
 ### Validation Server Health
 See [health]({{site.validation-server-url}}/health_check) of the validation server.
 
@@ -18,17 +18,17 @@ See [health]({{site.validation-server-url}}/health_check) of the validation serv
 ### Validation Server Environment
 See [environment]({{site.validation-server-url}}/environment) of the validation server.
 
-
+---
 ### Tool Registry Service Validation Status
 Below is a list of tool registry services and its validation status:
 
-Fake Dockstore [![Validator Running]({{site.validation-server-url}}/trs/validator?url=http://142.1.177.94:8080)]({{site.validation-server-url}}/trs/validator/debug?url=http://142.1.177.94:8080) 
+Dockstore Snapshot 1.4.0-alpha [![Validator Running]({{site.validation-server-url}}/trs/validator?url=http://142.1.177.94:8080)]({{site.validation-server-url}}/trs/validator/debug?url=http://142.1.177.94:8080) 
 
 Dockstore [![Validator Running]({{site.validation-server-url}}/trs/validator?url=https://dockstore.org:8443)]({{site.validation-server-url}}/trs/validator/debug?url=https://dockstore.org:8443) 
 
 {placeholder_name} | [![Validator Running]({{site.validation-server-url}}/trs/validator?url={placeholder_url})]({{site.validation-server-url}}/trs/validator/debug?url={placeholder_url})      
 
-<br><br>
+---
 ### Validator Info
 
 #### Instructions to add your tool registry service to this validator
