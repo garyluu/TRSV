@@ -3,10 +3,10 @@ layout: page
 title: Tool Registry Service Validator
 ---
 This tool registry validator checks tool registry service URLs to determine if it conforms to the [ga4gh-tool-discovery.yaml](https://github.com/ga4gh/tool-registry-schemas/blob/feature/trsv_changes/src/main/resources/swagger/ga4gh-tool-discovery.yaml) swagger specification.  For each endpoint, the validator checks if:
-- all the endpoints are reachable
+- the endpoint is reachable
 - the header info (such as content-type) is available and correct
 - the response objects contain all required properties
-- the correct response code are returned
+- the correct response code is returned
 
 and much more.  The validator provides badges based on the results.
 
@@ -38,11 +38,11 @@ Make another entry by copying the placeholder line above and simply changing {pl
 #### Description of badges
 
 - Error badge indicates one or more endpoints have errored (possibly because the URL could not be reached)
-- Failure indicates that there were no errors but one or more endpoints have failed validation (one of many reasons)
-- Warning badge indicates there were no errors or failures, but one or more endpoint was skipped (one possibly is because there was no tools returned so object definition could not be checked)
+- Failure indicates that there were no errors but one or more endpoints have failed validation (one of many reasons.  Click on badge for details)
+- Warning badge indicates there were no errors or failures, but one or more endpoint was skipped (possibly because there was no tools returned so object definition could not be checked)
 - Passing badge indicates all endpoints were successfully validated
 
-Details on the results can be seen by clicking on the badge itself.
+In general, click on badge for more details about the result.
 
 #### Additional Notes
 
