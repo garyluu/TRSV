@@ -24,6 +24,8 @@ Below is a list of tool registry services and its validation status:
 
 Dockstore Snapshot 1.4.0-alpha [![Validator Running]({{site.validation-server-url}}/trs/validator?url=http://142.1.177.94:8080)]({{site.validation-server-url}}/trs/validator/debug?url=http://142.1.177.94:8080) 
 
+Dockstore Staging [![Validator Running]({{site.validation-server-url}}/trs/validator?url=https://staging.dockstore.org:8443)]({{site.validation-server-url}}/trs/validator/debug?url=https://staging.dockstore.org:8443) 
+
 Dockstore [![Validator Running]({{site.validation-server-url}}/trs/validator?url=https://dockstore.org:8443)]({{site.validation-server-url}}/trs/validator/debug?url=https://dockstore.org:8443) 
 
 {placeholder_name} | [![Validator Running]({{site.validation-server-url}}/trs/validator?url={placeholder_url})]({{site.validation-server-url}}/trs/validator/debug?url={placeholder_url})      
